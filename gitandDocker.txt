@@ -1,0 +1,26 @@
+1.git init
+2.git status
+3.git add
+4.git comitt -m "message"
+5.git log
+6.git checkout "previous comit id"
+7.git master
+8.git remote add origin
+9.git push origin
+    ->username
+    ->personal acesss token
+10.git clone
+11.git push
+12.git checkout -b bugfix
+**************************************Docker**************************
+1.create folder in your pc eg.dockerdemo
+2.open that folder in vs code
+3.download app in vs code
+4.create dockerfile inside that app
+           ->from node : alpine
+           ->WORKDIR /app path
+           ->COPY . .
+           ->cmd npm start 
+5.on cmd in location
+       ->docker build -t name
+       ->docker run name
